@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: skyblue;
+}
+nav{
+    background-color: gray;
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+nav > a {
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: rgb(231, 25, 25);
+    }
+    h1{
+        color: white;
+    }
+    nav{
+        flex-direction: column;
+        height: auto;
+    }
+  }
